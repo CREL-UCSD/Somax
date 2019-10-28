@@ -1,0 +1,8 @@
+name: somax1.5_environment
+
+dependencies:
+  - python=2.7
+  - librosa
+  - numpy
+  - scipy
+  - scikits.samplerate
