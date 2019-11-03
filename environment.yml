@@ -3,3 +3,4 @@ name: somax1.5_environment
 dependencies:
   - python=2.7
   - librosa=0.7
+  - ipywidgets
