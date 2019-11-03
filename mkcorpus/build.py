@@ -28,11 +28,11 @@ class Main:
         # NOTE! This primitive check will print a warning if the user is building the json file to a folder that is not
         #       named `corpus`. If the naming of the corpus folder will change in future versions,
         #       this check will be incorrect and must be corrected.
-        if os.path.normpath(os.path.basename(output_folder)) != settings.CORPUS_FOLDER_NAME:
-            self.logger.warn('Output folder is not set to default and will likely not be available inside SoMax, '
-                             'is this intentional?\n'
-                             'To ensure correct behaviour, please either run the script directly inside\n'
-                             'the corpus folder of SoMax or use the -o option to point to this directory.')
+        #if os.path.normpath(os.path.basename(output_folder)) != settings.CORPUS_FOLDER_NAME:
+        #    self.logger.warn('Output folder is not set to default and will likely not be available inside SoMax, '
+        #                     'is this intentional?\n'
+        #                     'To ensure correct behaviour, please either run the script directly inside\n'
+        #                     'the corpus folder of SoMax or use the -o option to point to this directory.')
 
         builder = CorpusBuilder(input_path, foreground_channels=foreground, self_bg_channels=self_bg,
                                 mel_bg_channels=mel_bg, harm_bg_channels=harm_bg, uses_legacy_parser=uses_legacy_parser)
