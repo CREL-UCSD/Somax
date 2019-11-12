@@ -1,2 +1,5 @@
-gunzip ./conductor_midi.app/Contents/Frameworks/Chromium\ Embedded\ Framework.framework/Chromium\ Embedded\ Framework.gz
-gunzip ./conductor_audio.app/Contents/Frameworks/Chromium\ Embedded\ Framework.framework/Chromium\ Embedded\ Framework.gz
+unzip ./conductor_audio.app/Contents/Frameworks.zip
+rm ./conductor_audio.app/Contents/Frameworks.zip
+
+unzip ./conductor_midi.app/Contents/Frameworks.zip
+rm ./conductor_midi.app/Contents/Frameworks.zip
