@@ -4,6 +4,8 @@ Somax improvisation software
 
 Multi-input branch extends capability to use two MIDI inputs for a single conductor.
 
+Modifications by Kevin Huang and Shlomo Dubnov
+
 ## Usage
 
 To use Somax with multiple midi inputs, clone/download this branch of this repository and use "conductor_midi_2.maxpat". A screenshot is shown below.
@@ -18,6 +20,8 @@ More details can be found on [this doc](https://docs.google.com/document/d/1QqxM
 
 
 ## Experimental Design
+
+by Shlomo Dubnov and Viktor Müller
 
 1. Resting state with eyes closed and open
 
